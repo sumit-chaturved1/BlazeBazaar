@@ -7,7 +7,7 @@ import Layout from './components/layout'
 import ProductDetails from './pages/ProductDetails'
 const App = () => {
     
-    return (
+    return ( 
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Layout/>} >
